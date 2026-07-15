@@ -1,8 +1,8 @@
-# Dermatological Disease Classification using InceptionV3
+# Custom Skin Cancer Training
 
 ## 📌 Project Overview
 
-This project focuses on classifying dermatological diseases from skin images using a transfer learning approach. A pre-trained InceptionV3 model is used as the feature extractor, followed by fine-tuning to improve classification performance on dermatological image datasets.
+This project focuses on training a deep learning model to classify different types of dermatological diseases using skin images. The model performs image preprocessing, training, and evaluation to predict disease categories from medical images.
 
 ## 🚀 Technologies Used
 
@@ -13,66 +13,60 @@ This project focuses on classifying dermatological diseases from skin images usi
 - Matplotlib
 - Google Colab
 
-## 🧠 Model Architecture
+## 📂 Dataset
 
-The project uses the **InceptionV3** deep learning model with ImageNet pre-trained weights.
+The model is trained using image datasets containing the following disease categories:
 
-The model architecture includes:
-
-- InceptionV3 (Pre-trained)
-- Flatten Layer
-- Dropout Layer (0.5)
-- Dense Softmax Output Layer
-
-Transfer learning and fine-tuning techniques are applied to improve model performance.
+- Acne and Rosacea
+- Eczema
+- Melanoma Skin Cancer, Nevi and Moles
+- Psoriasis, Lichen Planus and Related Diseases
+- Tinea, Ringworm, Candidiasis and Other Fungal Infections
 
 ## ✨ Features
 
-- Skin disease image classification
-- Transfer Learning using InceptionV3
-- Fine-tuning of deeper network layers
 - Image preprocessing
-- Data augmentation
-- Model training and evaluation
+- Image resizing (128 × 128)
+- Deep learning model training
+- Multi-class skin disease classification
+- Model evaluation on test data
 - Training loss visualization
 
 ## ⚙️ Project Workflow
 
-1. Load dermatological image dataset.
-2. Preprocess and resize images to **224 × 224**.
-3. Apply data augmentation.
-4. Build an InceptionV3-based classification model.
-5. Train the model using transfer learning.
-6. Fine-tune selected layers.
-7. Evaluate model performance and visualize training results.
+1. Load the dataset from Google Drive.
+2. Preprocess and resize images.
+3. Convert labels into categorical format.
+4. Train the deep learning model.
+5. Evaluate the model on test images.
+6. Visualize training performance.
 
 ## 👥 Project Type
 
-Final Year Academic Team Project
+Academic Team Project
 
 ## 👩‍💻 My Contributions
 
 - Assisted in dataset preparation and preprocessing.
-- Contributed to implementing the InceptionV3 model.
-- Participated in model training and fine-tuning.
+- Contributed to model training and testing.
 - Helped evaluate model performance.
-- Collaborated with teammates throughout the project.
+- Collaborated with team members throughout the project.
 
-## 📂 Repository Contents
+## 📁 Repository Contents
 
-- Inception_fal_final.ipynb
+- CustomSKinCancerTraining1.ipynb
+- Training Notebook
+- Model Training Code
 
 ## 🔮 Future Improvements
 
-- Improve classification accuracy using larger datasets.
-- Add more dermatological disease categories.
+- Increase dataset size.
+- Improve model accuracy.
 - Deploy the model as a web application.
-- Optimize the model for real-time predictions.
+- Support additional skin disease categories.
 
 ## 👩 Author
 
 **Bhavitha Naga**
 
 B.Tech – Artificial Intelligence & Machine Learning
-
-*This repository contains a final-year academic team project developed for educational purposes.*
